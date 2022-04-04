@@ -5,4 +5,4 @@ EDUCATIONAL PROJECT WEB DEVELOPMENT TRAINING COURSE BY DEVELHOPE: DISCLAIMER.
 The purpose of this aforementioned project is to reproduce, for educational purposes and without any lucrative or promotional purpose, the mere graphic structure of the "Nintendo.com" site, owned by the following legal entity: "© Nintendo . Games are property of their respective owners. Nintendo of America Inc. Headquarters are in Redmond, Washington, USA ", allegedly owned by" Nintendo Co. Ltd. "
 
 LEGENDA:
-TEAM 1: Jose-Francesco / TEAM 2: Claudio-Elio / TEAM 3: Diego-Federico
+TEAM 1: Jose-Francesco LAVORANO da GAMING SYSTEMS a CHARACTERS / TEAM 2: Claudio-Elio LAVORANO da KIRBY a ONLINESTORE / TEAM 3: Diego-Federico LAVORANO da DIGITAL BEST SELLERS a DIGITAL NEW RELEASES
