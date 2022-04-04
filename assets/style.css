@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container {
+    margin: 5%;
+}
+
+/* stile contanier mezzo */
+.store {
+    background-color: red;
+   display: flex;
+   justify-content: space-between;
+}
+ /* Container immagine scritta */
+.scritta {
+    width: 50%;
+    display: inline-block;
+}
+ /* Container dei logo */
+.store .logo-store {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo-store img {
+    display: inline-block;
+    width: 15%;
+    height: 30%;
+}
+
+/* Stile container fine */
+.shop {
+    display: inline-block;
+    width: 70%;
+}
+
+.button {
+    display: inline-block;
+}
+
+/* Forma e colore bottone */
+.btn{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1.25 rem;
+    position: relative;
+    font-weight: 600;
+    color: aliceblue;
+    background: red;
+    border-radius: 3%;
+    transition: transform 0.3s ease;
+}
+
+/* dimensione immagine switch */
+.nintendo-switch img {
+    width: 100%;
+}
+
+/* Stile Card */
