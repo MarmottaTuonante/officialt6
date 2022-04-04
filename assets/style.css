@@ -24,13 +24,14 @@
 .store .logo-store {
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+    margin: 30px;
 }
 
 .logo-store img {
     display: inline-block;
-    width: 15%;
-    height: 30%;
+    width: 13%;
+    height: 25%;
 }
 
 /* Stile container fine */
@@ -39,24 +40,25 @@
     width: 70%;
 }
 
+
+/* Forma e colore bottone */
 .button {
     display: inline-block;
 }
-
-/* Forma e colore bottone */
 .btn{
     display: inline-block;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    padding: 20px 50px;
-    font-size: 1.25 rem;
+    padding: 10px 65px;
+    font-size: 1.25rem;
     position: relative;
     font-weight: 600;
     color: aliceblue;
     background: red;
     border-radius: 3%;
     transition: transform 0.3s ease;
+    margin-top: 10px;
 }
 
 /* dimensione immagine switch */
@@ -65,3 +67,17 @@
 }
 
 /* Stile Card */
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid-card img{
+    width: 100%;
+}
+.mini-card {
+    width: 22%;
+}
+.mini-card img{
+    width: 100%;
+}
