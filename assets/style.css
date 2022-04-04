@@ -3,10 +3,17 @@
 * {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
 }
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.575);
+}
+/* Stile generale container */
 .container {
-    margin: 5%;
+    margin: 0 10%;
+}
+.container div{
+    margin-bottom: 30px;
 }
 
 /* stile contanier mezzo */
@@ -15,11 +22,13 @@
    display: flex;
    justify-content: space-between;
 }
+
  /* Container immagine scritta */
 .scritta {
     width: 50%;
     display: inline-block;
 }
+
  /* Container dei logo */
 .store .logo-store {
     display: flex;
@@ -27,7 +36,6 @@
     align-items: center;
     margin: 30px;
 }
-
 .logo-store img {
     display: inline-block;
     width: 13%;
@@ -39,7 +47,6 @@
     display: inline-block;
     width: 70%;
 }
-
 
 /* Forma e colore bottone */
 .button {
@@ -59,6 +66,11 @@
     border-radius: 3%;
     transition: transform 0.3s ease;
     margin-top: 10px;
+    border-radius: 5px;
+}
+.button:hover {
+    transform: scale(1.05);
+    filter: brightness(0.8);
 }
 
 /* dimensione immagine switch */
@@ -71,13 +83,36 @@
     display: flex;
     justify-content: space-between;
 }
+.cards p{
+    font-weight: 300;
+}
+.cards a h3:hover {
+    color: red;
+}
 
-.mid-card img{
+/* News cards */
+.news-mid-cards {
+    width: 48%;
+}
+.news-mid-cards img{
     width: 100%;
 }
-.mini-card {
+.news-mid-cards a, .news-mini-cards a{
+    color: red;
+    font-weight: 500;
+    text-decoration: none;
+}
+.news-mini-cards, .character-mini-cards {
     width: 22%;
 }
-.mini-card img{
+.news-mini-cards img, .character-mini-cards img{
     width: 100%;
+}
+.news-mid-cards a:hover, .news-mini-cards a:hover {
+    filter: brightness(0.8);
+}
+
+/* Characters cards */
+.character-mini-cards a img:hover {
+    transform: scale(1.03);
 }
